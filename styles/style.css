@@ -30,7 +30,7 @@ background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(32, 30, 30, 0.9) 100
     display: flex;
    justify-content:space-between;
     align-items: center;
-    width: 1060px;
+    max-width: 1060px;
 height: 46px;
 padding: 70px 0;
 }
@@ -40,7 +40,7 @@ padding: 70px 0;
     font-weight: 800;
 }
 .nav-context{
-    width: 465px;
+    max-width: 465px;
 height: 46px;
      display: flex;
     gap: 47px;
@@ -80,7 +80,7 @@ margin-right: 32px;
     font-size: 4.9rem;
     font-weight: 900;
     color: #FFFFFF;
-    line-height: 100px;
+    line-height: 95px;
     
 }
 .bannar-context>p{
@@ -130,6 +130,7 @@ backdrop-filter: blur(20px);
 background: rgba(255, 255, 255, 0.1);
 bottom: 380px;
 left: 390px;
+
 }
 .button-two{
     width: 206px;
@@ -163,9 +164,8 @@ text-align: center;
 }
 .btn-img>h1{
     color: rgb(255, 255, 255);
-    font-size: 2.4rem;
-font-weight: 900;
-
+   font-size: 2.4rem;
+   font-weight: 900px;
 }
 .btn-img>p{
     color: rgb(255, 255, 255);
@@ -180,7 +180,84 @@ border-radius: 50%;
 }
 .icon{
     color: #FFFFFF;
+    display: none ;
 }
 @media screen and (max-width:576px) {
-    
+    .nav-context{
+        display: none;
+    }
+    .icon{
+        display: block;
+       
+    }
+    .bannar-nav{
+        margin: 0 20px;
+    }
+    .bannar-top{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .bannar-container{
+        height: auto;
+    }
+    .bannar-context{
+        width: 90%;
+
+        margin-right: 0px;
+        margin-bottom: 0px;
+        
+        
+    }
+    .bannar-context>h1{
+        font-size: 2.1rem;
+        line-height: 45px;
+    }
+    .shape{
+        font-size: 4rem;
+        font-weight: 200;
+    }
+    p{
+        font-size: 0.9rem;
+        font-weight: 100;
+        width: 274px;
+height: 96px;
+
+    }
+    .bannar-btn{
+        width: 169px;
+height: 54px;
+font-size: 0.8rem;
+font-weight: 300;
+margin: 0;
+
+
+    }
+    .bannar-img{
+        width: 353px;
+height: 588px;
+margin-top: 0px;
+    }
+    .bnr-image{
+   margin-left: 0px;
+    }
+    .btn-img{
+        
+        left: 0px;
+        width: 145.91px;
+        height: 74.09px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .btn-img>h1{
+        font-size: 1.5rem;
+font-weight: 450;
+    }
+  
+   .btn-img>p{
+    font-size: 0.4rem;
+   font-weight: 200;
+   }
+
 }
