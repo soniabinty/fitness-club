@@ -360,7 +360,7 @@ h5 {
     display: block;
   }
   .change-context {
-    margin-top: 0;
+    
     padding-top: 0;
     width: 95%;
   }
@@ -368,6 +368,7 @@ h5 {
     width: 318px;
     height: 38px;
     font-size: 2rem;
+    font-weight: 900;
     text-align: center;
   }
   .change-context > p {
