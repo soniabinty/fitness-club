@@ -231,6 +231,60 @@ h5 {
   border-radius: 50%;
   border: 4px solid rgb(63, 63, 63);
 }
+/* run section */
+.run-top {
+  width: 1060px;
+  height: 371px;
+  border-radius: 18px;
+  background-color: rgb(34, 34, 34);
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+}
+.run-containar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+.run-context {
+  width: 443px;
+  height: 290px;
+  justify-content: start;
+  align-items: center;
+}
+.run-context > h1 {
+  margin-bottom: 18px;
+}
+.run-context > p {
+  margin-bottom: 18px;
+}
+
+.run-img {
+  width: 366px;
+  height: 312px;
+  background-image: url(../images/run23.jpg);
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+  align-items: center;
+}
+.run-full-img {
+  width: 366px;
+  height: 312px;
+  background-image: url(../images/run.jpg);
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none;
+  border-radius: 18px;
+}
+
 @media screen and (max-width: 576px) {
   .nav-context {
     display: none;
@@ -327,7 +381,7 @@ h5 {
     height: 72.58px;
 
     top: 270px;
-    right: 195px;
+    right: 187px;
   }
   .round {
     width: 30.24px;
@@ -360,7 +414,6 @@ h5 {
     display: block;
   }
   .change-context {
-    
     padding-top: 0;
     width: 95%;
   }
@@ -370,7 +423,7 @@ h5 {
     font-size: 2rem;
     font-weight: 900;
     text-align: center;
-    margin-left:10px ;
+    margin-left: 10px;
   }
   .change-context > p {
     width: 316px;
@@ -387,24 +440,23 @@ h5 {
     align-items: center;
     text-align: center;
     margin-left: 10px;
-   
   }
   .image-context {
     justify-content: center;
     text-align: center;
     align-items: center;
-  padding-bottom: 20px;
-    
-}
-.image-context>h5{
-  font-size: 1.1rem;
-font-weight: 600;
-margin-left: 0px;
-}
-.image-context>p{
-  width: 231px;
-  height: 36px;
-  font-size: 0.8rem;
-  font-weight: 400;
-  margin-left: 40px;
+    padding-bottom: 20px;
+  }
+  .image-context > h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 0px;
+  }
+  .image-context > p {
+    width: 231px;
+    height: 36px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-left: 40px;
+  }
 }
