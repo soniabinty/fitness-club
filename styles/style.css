@@ -368,18 +368,21 @@ h5 {
     width: 318px;
     height: 38px;
     font-size: 2rem;
+    text-align: center;
   }
   .change-context > p {
     width: 316px;
     height: 72px;
     font-size: 0.8rem;
     font-weight: 400;
+    text-align: center;
   }
   .change-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
+    text-align: center;
    
   }
   .image-context {
