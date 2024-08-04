@@ -214,7 +214,7 @@ p {
   }
   p {
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 200;
     width: 274px;
     height: 96px;
   }
@@ -224,8 +224,9 @@ p {
   .bannar-btn {
     width: 169px;
     height: 54px;
-    font-size: 0.8rem;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
   }
   .club {
     display: none;
