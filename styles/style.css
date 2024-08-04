@@ -353,4 +353,51 @@ h5 {
     font-weight: 400;
     width: 82px;
   }
+  /* change part */
+  .change-top {
+    width: 90%;
+    width: 338px;
+    display: block;
+  }
+  .change-context {
+    margin-top: 0;
+    padding-top: 0;
+    width: 95%;
+  }
+  .change-context > h1 {
+    width: 318px;
+    height: 38px;
+    font-size: 2rem;
+  }
+  .change-context > p {
+    width: 316px;
+    height: 72px;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .change-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .image-context {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  padding-bottom: 20px;
+    
+}
+.image-context>h5{
+  font-size: 1.1rem;
+font-weight: 600;
+margin-left: 20px;
+}
+.image-context>p{
+  width: 231px;
+  height: 36px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 50px;
 }
