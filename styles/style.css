@@ -233,19 +233,19 @@ h5 {
 }
 /* run section */
 .run-top {
-  width: 1060px;
-  height: 371px;
-  border-radius: 18px;
-  background-color: rgb(34, 34, 34);
-  margin: 50px auto;
   align-items: center;
   justify-content: center;
+  margin-top: 60px;
 }
 .run-containar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 30px;
+  background-color: rgb(34, 34, 34);
+  width: 1060px;
+  height: 371px;
+  border-radius: 18px;
+  margin: 0 auto;
 }
 .run-context {
   width: 443px;
@@ -409,13 +409,14 @@ h5 {
   }
   /* change part */
   .change-top {
-    width: 90%;
     width: 338px;
     display: block;
+    height: auto;
   }
   .change-context {
     padding-top: 0;
     width: 95%;
+    height: auto;
   }
   .change-context > h1 {
     width: 318px;
@@ -440,6 +441,7 @@ h5 {
     align-items: center;
     text-align: center;
     margin-left: 10px;
+    height: auto;
   }
   .image-context {
     justify-content: center;
@@ -458,5 +460,49 @@ h5 {
     font-size: 0.8rem;
     font-weight: 400;
     margin-left: 40px;
+  }
+  /* run */
+
+  .run-top {
+    width: 95%;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .run-containar {
+    width: 353px;
+    height: 531px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 AUTO;
+  }
+
+  .run-context {
+    width: 287px;
+    height: 264px;
+  }
+  .run-context > h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .run-context > p {
+    font-size: 0.9;
+    font-weight: 400;
+    width: 287px;
+  }
+  .run-context > button {
+    width: 287px;
+    height: 54px;
+    font-size: 1.1rem;
+    font-weight: 600px;
+  }
+  .run-img {
+    display: none;
+  }
+  .run-full-img {
+    display: block;
+    width: 287px;
+    height: 170px;
   }
 }
