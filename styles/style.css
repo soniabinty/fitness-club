@@ -3,6 +3,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: black;
 }
 * {
   margin: 0;
@@ -11,20 +12,26 @@ body {
 }
 /* shared style */
 p {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 400;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.5);
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+h5 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 /* banner */
 .bannar-container {
   max-width: 1440px;
   height: 715px;
   margin: 0 auto;
-  background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(32, 30, 30, 0.9) 100%
-  );
+  background: linear-gradient(180deg, rgb(39, 38, 38), rgba(0, 0, 0, 0.9) 100%);
 }
 /* nav */
 .bannar-nav {
@@ -54,6 +61,11 @@ p {
   border-radius: 39px;
   padding: 4px;
   padding-right: 20px;
+}
+.nav-context > p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
 }
 .nav-home {
   border-radius: 46px;
@@ -180,12 +192,52 @@ p {
   color: #ffffff;
   display: none;
 }
+/* change your habits */
+.change-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1060px;
+  background-color: black;
+}
+.change-context {
+  width: 1044px;
+  height: 452px;
+  margin-top: 60px;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.change-context > h1 {
+  margin-bottom: 18px;
+}
+.change-img {
+  height: 274px;
+  display: flex;
+  margin-top: 50px;
+}
+.image-context {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-context > h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.img-img {
+  border-radius: 50%;
+  border: 4px solid rgb(63, 63, 63);
+}
 @media screen and (max-width: 576px) {
   .nav-context {
     display: none;
   }
   .icon {
     display: block;
+    font-size: 1.6rem;
   }
   .bannar-nav {
     margin: 0 20px;
@@ -242,13 +294,13 @@ p {
     padding-top: 5px;
   }
   .btn-img {
-    left: 200px;
+    left: 195px;
     width: 145.91px;
     height: 74.09px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    bottom: 465px;
+    bottom: 450px;
   }
   .btn-img > h1 {
     font-size: 1.5rem;
