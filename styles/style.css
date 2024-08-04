@@ -194,7 +194,7 @@ h5 {
 }
 /* change your habits */
 .change-top {
-  display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -370,6 +370,7 @@ h5 {
     font-size: 2rem;
     font-weight: 900;
     text-align: center;
+    margin-left:10px ;
   }
   .change-context > p {
     width: 316px;
@@ -377,6 +378,7 @@ h5 {
     font-size: 0.8rem;
     font-weight: 400;
     text-align: center;
+    margin-left: 10px;
   }
   .change-img {
     display: grid;
@@ -384,6 +386,7 @@ h5 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 10px;
    
   }
   .image-context {
@@ -403,5 +406,5 @@ margin-left: 0px;
   height: 36px;
   font-size: 0.8rem;
   font-weight: 400;
-  margin-left: 50px;
+  margin-left: 40px;
 }
