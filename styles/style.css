@@ -47,11 +47,13 @@ p {
   display: flex;
   gap: 47px;
   text-align: center;
+  justify-content: center;
   align-items: center;
   margin-left: 280px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
   padding: 4px;
+  padding-right: 20px;
 }
 .nav-home {
   border-radius: 46px;
@@ -196,8 +198,9 @@ p {
     height: auto;
   }
   .bannar-context {
-    width: 90%;
-
+    width: 97%;
+    padding-left: 20px;
+    padding-top: 20px;
     margin-right: 0px;
     margin-bottom: 0px;
   }
@@ -220,6 +223,9 @@ p {
     height: 54px;
     font-size: 0.8rem;
     font-weight: 300;
+  }
+  .club {
+    display: none;
   }
   .bannar-img {
     width: 353px;
