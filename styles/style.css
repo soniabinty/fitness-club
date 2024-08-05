@@ -475,7 +475,8 @@ h5 {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 0 AUTO;
+    margin: 0 auto;
+    margin-top: 30px;
   }
 
   .run-context {
@@ -487,9 +488,8 @@ h5 {
     font-weight: 900;
   }
   .run-context > p {
-    font-size: 0.9;
+    font-size: 0.8;
     font-weight: 400;
-    width: 287px;
   }
   .run-context > button {
     width: 287px;
