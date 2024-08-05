@@ -464,13 +464,13 @@ h5 {
   /* run */
 
   .run-top {
-    width: 95%;
+    width: 100%;
     height: auto;
     justify-content: center;
     margin: 0 auto;
   }
   .run-containar {
-    width: 353px;
+    width: 340px;
     height: 531px;
     display: grid;
     justify-content: center;
