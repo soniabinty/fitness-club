@@ -633,40 +633,48 @@ h3 {
     flex-direction: column;
     align-items: start;
     height: auto;
+    width: 100%;
+    justify-content: center;
   }
   .bmi-container {
     width: 100%;
     height: auto;
-    margin-right: 0;
+    margin: 0 auto;
+    justify-content: center;
   }
   .bmi-heading {
-    width: 353px;
+    width: 100%;
     height: 124px;
-    padding-left: 11px;
+    padding-left: 35px;
     margin-top: 0;
   }
   .bmi-heading > h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 900;
-    width: 353px;
-    height: 72px;
+    margin-bottom: 20px;
   }
   .bmi-heading > p {
-    font-size: 0.9;
+    font-size: 0.8;
     font-weight: 400;
   }
-
+  .bmi-context {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
   .Calculator-chart {
     width: 100%;
-    padding-left: 45px;
+    padding: 30px;
+    justify-content: center;
   }
   .Calculator-chart > h3 {
-    width: 167px;
     font-size: 1rem;
     font-weight: 900;
+    padding-left: 20px;
   }
   .chart-container {
-    width: 310px;
+    width: 100%;
+    justify-content: center;
   }
 
   .chart-item {
@@ -677,23 +685,37 @@ h3 {
     font-weight: 500;
   }
   .chart-item > p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 400;
+    height: auto;
+    width: auto;
   }
   .bmi-form {
     width: 100%;
     height: auto;
+    justify-content: center;
+    padding-left: 30px;
+    margin-top: 15px;
   }
   .form-context {
     width: 100%;
     height: auto;
+    justify-content: center;
+  }
+  .form-context > h3 {
+    font-size: 1rem;
+    font-weight: 450;
   }
   .input-item {
-    width: 170.5px;
+    width: 45%;
     height: 48px;
   }
   .input-factor {
-    width: 353px;
+    width: 93%;
     height: 48px;
+  }
+  .bmi-input > button {
+    width: 224px;
+    height: 54px;
   }
 }
