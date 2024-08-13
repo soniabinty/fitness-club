@@ -119,6 +119,7 @@ h3 {
   font-weight: 600;
   color: #ffffff;
   margin: 10px 5px;
+  cursor: pointer;
 }
 .bannar-img {
   position: relative;
@@ -288,7 +289,7 @@ h3 {
   display: none;
   border-radius: 18px;
 }
-
+/* bmi section */
 .bmi-container {
   max-width: 1440px;
   justify-content: center;
@@ -626,5 +627,73 @@ h3 {
     display: block;
     width: 287px;
     height: 170px;
+  }
+  /* bmi */
+  .Calculator-container {
+    flex-direction: column;
+    align-items: start;
+    height: auto;
+  }
+  .bmi-container {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+  .bmi-heading {
+    width: 353px;
+    height: 124px;
+    padding-left: 11px;
+    margin-top: 0;
+  }
+  .bmi-heading > h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    width: 353px;
+    height: 72px;
+  }
+  .bmi-heading > p {
+    font-size: 0.9;
+    font-weight: 400;
+  }
+
+  .Calculator-chart {
+    width: 100%;
+    padding-left: 45px;
+  }
+  .Calculator-chart > h3 {
+    width: 167px;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  .chart-container {
+    width: 310px;
+  }
+
+  .chart-item {
+    height: 45px;
+  }
+  .chart-item > h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .chart-item > p {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .bmi-form {
+    width: 100%;
+    height: auto;
+  }
+  .form-context {
+    width: 100%;
+    height: auto;
+  }
+  .input-item {
+    width: 170.5px;
+    height: 48px;
+  }
+  .input-factor {
+    width: 353px;
+    height: 48px;
   }
 }
