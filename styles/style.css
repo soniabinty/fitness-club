@@ -407,6 +407,50 @@ h3 {
   padding: 12px 20px 12px 20px;
   border-right: 20px solid transparent;
 }
+/* meet-section */
+.meet-container {
+  max-width: 1440;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.meet-image-container {
+  width: 1060px;
+  height: 604px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  gap: 20px;
+  padding: 20px;
+}
+.meet-context {
+  margin: 0 auto;
+  width: 671px;
+  height: 120px;
+  text-align: center;
+  margin-top: 70px;
+}
+.meet-context > h1 {
+  margin-bottom: 15px;
+}
+.meet-img {
+  width: 326.67px;
+  height: 272px;
+  position: relative;
+}
+.meet-img > img {
+  width: 326.67px;
+  height: 272px;
+  filter: brightness(70%);
+}
+.img-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
 
 @media screen and (max-width: 576px) {
   .nav-context {
@@ -646,7 +690,7 @@ h3 {
     width: 100%;
     height: 124px;
     padding-left: 25px;
-    margin-top: 0;
+    margin-top: 40px;
   }
   .bmi-heading > h1 {
     font-size: 1.8rem;
@@ -670,7 +714,6 @@ h3 {
   .Calculator-chart > h3 {
     font-size: 1rem;
     font-weight: 900;
-    padding-left: 3px;
   }
   .chart-container {
     width: 100%;
@@ -717,5 +760,53 @@ h3 {
   .bmi-input > button {
     width: 224px;
     height: 54px;
+  }
+  /* meet */
+  .meet-container {
+    width: 95%;
+    height: auto;
+    justify-content: center;
+  }
+  .meet-image-container {
+    width: 97%;
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .meet-context {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .meet-context > h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  .meet-context > p {
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: auto;
+  }
+  .meet-img {
+    width: 97%;
+    height: auto;
+    justify-content: center;
+    padding-right: 0;
+  }
+  .meet-img > img {
+    padding: 0 12px;
+  }
+
+  .block-img {
+    display: none;
+  }
+  .img-text > p {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .img-text {
+    top: 200px;
   }
 }
