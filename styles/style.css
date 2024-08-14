@@ -161,6 +161,11 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+.play-icon {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 .text {
   margin-left: 8px;
 }
@@ -662,6 +667,12 @@ h3 {
     margin-top: 7px;
     margin-left: 10px;
   }
+  .play-icon {
+    display: block;
+    color: #ffffff;
+    margin-top: 8px;
+    justify-content: center;
+  }
   .text {
     justify-content: start;
     align-items: center;
@@ -961,10 +972,6 @@ h3 {
     font-size: 1.8rem;
     font-weight: 800;
     width: 80%;
-  }
-  .p-dum > p {
-    font-size: 0.8rem;
-    font-weight: 400;
   }
   /* footer */
   .footer-container {
