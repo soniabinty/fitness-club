@@ -30,6 +30,9 @@ h3 {
   color: #ffffff;
   font-size: 1.8rem;
 }
+a {
+  color: #ffffff;
+}
 /* banner */
 .bannar-container {
   max-width: 1440px;
