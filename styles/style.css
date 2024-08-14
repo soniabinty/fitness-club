@@ -451,6 +451,58 @@ h3 {
   bottom: 20px;
   left: 20px;
 }
+/* challenge */
+.offer-container {
+  max-width: 1440;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.offer-context {
+  max-width: 1060px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.offer-head {
+  width: 500px;
+}
+.offer-card-container {
+  max-width: 1060px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+.dumbell {
+  width: 250px;
+  height: 270px;
+  background-color: rgba(139, 139, 139, 0.2);
+  border-radius: 18px;
+  padding: 20px;
+}
+.building {
+  background-color: #e6533c;
+}
+.p-dum > img {
+  width: 40px;
+  height: 40px;
+}
+.p-dum > h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+.p-dum > p {
+  margin-bottom: 8px;
+}
+
 /* footer */
 .footer-container {
   max-width: 1440;
@@ -895,7 +947,6 @@ h3 {
   }
   .footer-last {
     width: 100%;
-
     align-items: center;
     padding: 30px 0;
     font-size: 1rem;
