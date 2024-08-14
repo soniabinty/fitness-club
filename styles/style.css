@@ -916,6 +916,56 @@ h3 {
   .img-text {
     top: 200px;
   }
+  /* offer */
+  .offer-container {
+    width: 100%;
+    height: auto;
+  }
+  .offer-context {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 35px;
+    margin-bottom: 0;
+  }
+  .offer-card-container {
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0;
+  }
+  .dumbell {
+    width: 100%;
+  }
+  .offer-head {
+    width: 100%;
+    text-align: start;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .offer-head > p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    width: 80%;
+    justify-content: center;
+  }
+  .offer-h {
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .offer-h > h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    width: 80%;
+  }
+  .p-dum > p {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
   /* footer */
   .footer-container {
     width: 100%;
